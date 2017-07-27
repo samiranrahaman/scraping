@@ -1,5 +1,17 @@
 <?php
-
+//youtube data scraping//
+/*
+ $url="https://www.youtube.com/watch?v=ncOVM5nSqRM";
+$ch = curl_init($url);
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+$curl_scraped_page = curl_exec($ch);
+curl_close($ch);
+$htmlAsString=$curl_scraped_page;
+$doc = new DOMDocument();
+libxml_use_internal_errors(true);
+//var_dump(libxml_use_internal_errors(true));//enable error handle
+$doc->loadHTML($htmlAsString);
+$xpath = new DOMXPath($doc);*/
 
 /* $contents = $xpath->query('/html/head/meta[@name="description"]/@content');
 
