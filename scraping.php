@@ -1,4 +1,47 @@
 <?php
+
+
+/* $contents = $xpath->query('/html/head/meta[@name="description"]/@content');
+
+// If nothing matches the query
+if ($contents->length == 0) {
+    echo "No description meta tag :(";
+// Found one or more descriptions, loop over them
+} else {
+    foreach ($contents as $content) {
+        echo $content->value . PHP_EOL;
+    }
+} */
+
+ 
+/* $tags = get_meta_tags('https://www.youtube.com/watch?v=E58ZVwOhj6c&t=3s');
+
+// Notice how the keys are all lowercase now, and
+// how . was replaced by _ in the key.
+//echo $tags['author'];       // name
+//echo $tags['keywords'];     // php documentation
+echo $tags['description'];  // a php manual
+echo $tags['duration']; // 49.33;-86.59 */
+
+
+/*$nodes = $xpath->query('//*[@itemprop]');
+
+
+$new_data = [];
+foreach ($nodes as $node) {
+    foreach ($node->attributes as $attr) {
+        $new_data[$attr->nodeName] []= $attr->nodeValue;
+    }
+}
+var_dump($new_data);*/
+
+
+
+
+
+
+
+
 if(isset($_POST['submit']))
 {
 //	echo $_POST['url'];exit;
